@@ -59,6 +59,14 @@ docker build -t my-python-app -f Dockerfile.python .
 ```bash
 docker run -p 5000:5000 my-python-app
 ```
+# Display of running containers:
+To check if the containers are running from the terminal use:
+```bash
+docker ps
+```
+![Alt text](/running.png)
+
+Additionally, you can verify the app execution when the containers are running by curling, as displayed in the picture.
 
 # Stopping Containers:
 
