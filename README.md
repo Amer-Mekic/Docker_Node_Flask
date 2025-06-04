@@ -66,3 +66,7 @@ Use docker ps to find the container ID, then stop with:
 ```bash
 docker stop <container_id>
 ```
+
+# Docker Container Lyfecycle state diagram:
+
+![Alt text](/Docker_Container_State_Diag.drawio.png)
